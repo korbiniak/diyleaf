@@ -23,3 +23,12 @@ export const updateValue = <S>(updateEntity: UpdateEntity<S>) => (
     }));
   }
 );
+
+export const updateColorValue = <S>(updateEntity: UpdateEntity<S>) => (
+  (event: any) => {
+    updateEntity((prevState) => ({
+      ...prevState,
+      ["color"]: event
+    }));
+  }
+);

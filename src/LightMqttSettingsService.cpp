@@ -1,4 +1,4 @@
-#include <LightMqttSettingsService.h>
+#include <LightMqttSettingsService.hpp>
 
 LightMqttSettingsService::LightMqttSettingsService(AsyncWebServer* server, FS* fs, SecurityManager* securityManager) :
     _httpEndpoint(LightMqttSettings::read,

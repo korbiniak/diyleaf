@@ -1,7 +1,7 @@
 #ifndef LightStateService_h
 #define LightStateService_h
 
-#include <LightMqttSettingsService.h>
+#include <LightMqttSettingsService.hpp>
 
 #include <HttpEndpoint.h>
 #include <MqttPubSub.h>

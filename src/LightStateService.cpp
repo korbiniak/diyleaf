@@ -1,4 +1,4 @@
-#include <LightStateService.h>
+#include <LightStateService.hpp>
 
 LightStateService::LightStateService(AsyncWebServer* server,
                                      SecurityManager* securityManager,
